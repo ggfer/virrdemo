@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     maxWidth: 60,
-    backgroundColor: "blue",
+    backgroundColor: "orange",
     borderRadius: 100,
   },
 });
