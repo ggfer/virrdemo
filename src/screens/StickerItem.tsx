@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useRef, useCallback, useState } from "react";
 import { Dimensions, Image, Pressable, StyleSheet, TouchableOpacity, View } from "react-native";
 import FastImage from "react-native-fast-image";
+import ThumbUp from '../../assets/thumb-up.png'
 
 const StickerItem = ({ name }) => {
   const handlStickerOnPress = () => {
@@ -11,7 +12,9 @@ const StickerItem = ({ name }) => {
       <TouchableOpacity
         onPress={() => handlStickerOnPress()}
       >
-        <View style={styles.sticker}></View>
+        <Image source={ThumbUp} style={styles.sticker}>
+
+        </Image>
       </TouchableOpacity>
     </View>
   );
@@ -30,7 +33,6 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     maxWidth: 60,
-    backgroundColor: "orange",
-    borderRadius: 100,
+    // backgroundColor: "orange",
   },
 });

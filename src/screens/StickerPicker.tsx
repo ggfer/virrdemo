@@ -7,6 +7,14 @@ export enum Stickers {
   whatsup2 = "whatsup2",
   whatsup3 = "whatsup3",
   whatsup4 = "whatsup4",
+  whatsup5 = "whatsup5",
+  whatsup6 = "whatsup6",
+  whatsup7 = "whatsup7",
+  whatsup8 = "whatsup8",
+  whatsup9 = "whatsup9",
+  whatsup10 = "whatsup10",
+  whatsup11 = "whatsup11",
+  whatsup12 = "whatsup12",
 }
 
 
@@ -31,7 +39,7 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
   },
   itemContainer: {
-    aspectRatio: 3 / 2,
+    aspectRatio: 3/2,
     width: "25%",
     alignSelf: "center",
   },
