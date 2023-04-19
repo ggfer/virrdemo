@@ -13,3 +13,4 @@
 
 1. Click the red button to open the bottomsheet and click the orange sticker button to send the sticker to the blue marker.
 2. Slider for map zoom in and zoom out.
+3. Contact me on wechat with the username zezeyze.
